@@ -66,8 +66,7 @@
 .Img{
     width: 53px;
     height: 43px;
-    background: url('../../../../../../img/gas-station-svgrepo\(2\).png') ;
-}
+background: url('https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:372228fd-9afe-4a10-b251-af977b41e290;revision=0?component_id=44bad7fd-74c1-471b-a06f-87e35f113d31&api_key=CometServer1&access_token=1731811226_urn%3Aaaid%3Asc%3AUS%3A372228fd-9afe-4a10-b251-af977b41e290%3Bpublic_37acdd03b2706f4043797ad0a77ef8ebc4cbb9e6');}
 .station-info h3 {
 font: normal bold 18px/22px Montserrat;
     letter-spacing: 1.8px;
