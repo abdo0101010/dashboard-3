@@ -31,6 +31,11 @@
           },
           "configurations": {
             "production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "aot": true,
+              "extractCss": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -42,11 +47,7 @@
                   "maximumWarning": "2kb",
                   "maximumError": "4kb"
                 }
-              ],
-              "optimization": true,
-              "outputHashing": "all",
-              "sourceMap": false,
-              "aot": true
+              ]
             },
             "development": {
               "optimization": true,
