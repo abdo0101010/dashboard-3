@@ -1,0 +1,23 @@
+<div class="dashboard">
+    <h2>Hourly Sales</h2>
+    <div class="chart-container">
+        <canvas id="hourlySalesChart" width="300" height="300"></canvas>
+    </div>
+
+    <h2>Sales by Station</h2>
+    <div class="stations">
+        <div *ngFor="let station of stations" class="station">
+            <div class="station-info">
+                <div class="icon">
+                    <img [src]="station.icon" alt="Station Icon" />
+                    <p class="station-name">{{ station.name }}</p>
+                </div>
+                <p *ngIf="station.value" class="station-value">{{ station.value }}</p>
+                <p *ngIf="!station.value" class="station-value">No Data</p>
+            </div>
+            <div class="progress-bar">
+                <div class="progress" [style.width]="station.progress + '%'"></div>
+            </div>
+        </div>
+    </div>
+</div>
